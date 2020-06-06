@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.display {
+    border-bottom: 1px solid black;
+}
+
+.forminput {
+    width: 780px;
+}
+
+.formlabel {
+    font-size: 14px;
+}
+
+.btn {
+    box-shadow: 2px 2px 5px black;
+}
+
+.submitbtn {
+    text-align: center;
+}
+
+.inputs {
+    margin-top: 15px;
+}
+
+.title {
+    text-align: center;
+    margin: 15px 0px;
+}

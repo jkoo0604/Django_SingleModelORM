@@ -1,0 +1,25 @@
+Single_Model_ORM
+
+
+from users_app.models import *
+
+User.objects.create(first_name='Jane',last_name='Doe',email_address='jane@python.org',age=10)
+User.objects.create(first_name='John',last_name='Doe',email_address='john@python.org',age=20)
+User.objects.create(first_name='Joe',last_name='Bruin',email_address='joe@python.org',age=30)
+
+User.objects.all()
+
+User.objects.first()
+
+User.objects.last()
+
+user3=User.objects.get(id=3)
+user3.last_name='Pancakes'
+user3.save()
+
+user2=User.objects.get(id=2)
+user2.delete()
+
+User.objects.all().order_by('first_name')
+User.objects.all().order_by('-first_name')
+
